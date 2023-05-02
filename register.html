@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        REGISTRATION
+    </title>
+    <link rel="stylesheet" href="register.css" />
+</head>
+<body>
+    <center><h1><b>WELCOME NEW CASHIER</b></h1></center>
+   
+    <div class="container">
+    <form action="register.php" method="post" >
+    <label>Cashier name : </label>   
+    <input type="text" name="cashiername" id="name"required size="36"/><br>
+    <label>Cashier id : </label>   
+    <input type="text"  name="cashierid" required  size="36"/><br>
+    <label>Email id : </label>   
+    <input type="text"  name="email" required size="36"/><br> 
+    <label>Phone Number : </label>   
+    <input type="tel"  name="phone_number" required size="36"/><br>
+    <label>Password :</label>
+    <input type="password" id="pass" name="password" required  size="36"><br>
+    <label>Retype Password :</label>
+    <input type="password" id="pass" name="confirmpassword" required size="36" ><br>
+    <button type="button" class="Back" onclick="location.href='suma.html';">Back</button>
+    <button type="submit" value="confirm" class="Update">Confirm</button>
+    </form>
+    </div>
+
+<!--
+<div>
+    <table>
+        <tr>
+            <td>Casher id</td>
+            <td>Cashier name</td>
+            <td>Email id</td>
+            <td>Password</td>
+            <td>Phone number</td>
+        </tr>
+    </table>
+</div>
+-->
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+    padding-top: 100px;
+}
+h1{
+    font-size: 50px;
+    color:red;
+}
+button{
+    width: 100px;
+    text-align: center;
+    background-color:antiquewhite ;
+}

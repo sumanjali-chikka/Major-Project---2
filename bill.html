@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Items
+        </title>
+        <link rel="stylesheet" href="bill.css" />
+    </head>
+    <body>
+        <center><h1>BILLING SYSTEM</h1></center>
+        <h3>CUSTOMER DETAILS</h3>
+        <form action="bill.php" method="post">
+        <div class="container1">   
+            <label>Customer name : </label>   
+            <input type="text" placeholder="Enter Customer name" name="name" required>  
+            <label>Phone Number : </label>   
+            <input type="tel" placeholder="Enter Phone number" name="number" required>
+            <label>Bill Number : </label>   
+            <input type="number" placeholder="Enter Bill number" name="billnumber" required> 
+        </div>
+    <h3>ITEMS LIST</h3>
+    
+    <div>
+        <div> 
+        <div class="container2">
+        <div class="food">
+        <h5>Food</h5>
+        <div class="container">
+        <div class="wrapper">
+        <label>Bread </label>
+        <input type="number" name="Fitem1" id="fitem1q" placeholder="Quantity" value="0"></br>
+        <label>Candy </label>
+        <input type="number" name="Fitem2" placeholder="Quantity" value="0"></br>
+        <label>Hamburger </label>
+        <input type="number" name="Fitem3"placeholder="Quantity" value="0"></br>
+        <label>Sandwich </label>
+        <input type="number" name="Fitem4" placeholder="Quantity" value="0"></br>
+        <label>Chikki </label>
+        <input type="number" name="Fitem5" placeholder="Quantity" value="0"></br>
+        <label>Jam </label>
+        <input type="number" name="Fitem6" placeholder="Quantity" value="0"></br>
+        <label>Muffins </label>
+        <input type="number" name="Fitem7" placeholder="Quantity" value="0"></br>
+        <label>Butter</label>
+        <input type="number" name="Fitem8" placeholder="Quantity" value="0"></br>
+        </div>
+        </div>
+    </div>
+        <div class="grocery">
+        <h5>Grocery</h5>    
+        <div class="container">
+        <div class="wrapper">
+        <label>Rice </label>
+        <input type="number" name="Gitem1" placeholder="Quantity" value="0"></br>
+        <label>Food Oil </label>
+        <input type="number" name="Gitem2" placeholder="Quantity" value="0"></br>
+        <label>Salt </label>
+        <input type="number" name="Gitem3" placeholder="Quantity" value="0"></br>
+        <label>Sugar </label>
+        <input type="number" name="Gitem4" placeholder="Quantity" value="0"></br>
+        <label>Dal </label>
+        <input type="number" name="Gitem5" placeholder="Quantity" value="0"></br>
+        <label>Maggi </label>
+        <input type="number" name="Gitem6" placeholder="Quantity" value="0"></br>
+        <label>Pasta </label>
+        <input type="number" name="Gitem7" placeholder="Quantity" value="0"></br>
+        <label>Masala </label>
+        <input type="number" name="Gitem8" placeholder="Quantity" value="0"></br>
+        </div>
+        </div>
+    </div>
+    <div class="others">
+    <h5>Others</h5>
+        <div class="container">    
+        <div class="wrapper">
+        <label>Juice </label>
+        <input type="number" name="Oitem1" placeholder="Quantity" value="0"></br>
+        <label>Boost </label>
+        <input type="number" name="Oitem2" placeholder="Quantity" value="0"></br>
+        <label>Honey </label>
+        <input type="number" name="Oitem3" placeholder="Quantity" value="0"></br>
+        <label>Gatorade </label>
+        <input type="number" name="Oitem4" placeholder="Quantity" value="0"></br>
+        <label>Nuts </label>
+        <input type="number" name="Oitem5" placeholder="Quantity" value="0"></br>
+        <label>Dried fruits</label>
+        <input type="number" name="Oitem6" placeholder="Quantity" value="0"></br>
+        <label>Soaps</label>
+        <input type="number" name="Oitem7" placeholder="Quantity" value="0"></br>
+        <label>Conditioners </label>
+        <input type="number" name="Oitem8" placeholder="Quantity" value="0"></br>
+        </div>
+        </div>
+    </div>
+
+    </div>
+
+    </br>
+    
+        <button type="submit" class="Generate Bill"> Generate Bill</button>
+        <button type="button" class="Clear" onclick="location.href='bill.html';"> Clear</button>
+        <button type="button" class="Exit" onclick="location.href='suma.html';"> Exit</button>
+        
+    </div>
+</form>
+<!-- <script type="text/javascript">
+    function update(){
+        var quan=document.getElementById('fitem1');
+        var costf1=50*quan;
+        document.getElementById('ftotal').innerHTML=costf1;
+    }
+    update();
+</script> -->
+    </body>
+</html>

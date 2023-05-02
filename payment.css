@@ -1,0 +1,32 @@
+ /* Add your own styles to enhance the appearance of the payment page */
+ label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .container1{
+    display:flex;
+    justify-content: center;
+  }

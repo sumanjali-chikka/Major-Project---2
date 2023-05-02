@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    width:300px;
+    padding:10px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    font-size: large ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: darkseagreen;
+    border-radius: 2%;
+    position: relative;
+}
+button{
+    width:fit-content;
+    float:right;
+}

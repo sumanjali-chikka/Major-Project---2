@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(245, 165, 119);
+    font-size: 20px;
+}
+.container{
+    
+    flex-direction: column;
+    width:300px;
+    padding:15px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color:rgb(158, 120, 209);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+input[type=text], input[type=password], input[type=tel]{
+    display:flex;
+    flex-direction: column;
+}
